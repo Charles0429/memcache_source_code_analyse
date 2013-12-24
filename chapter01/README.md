@@ -11,7 +11,7 @@
 
 我们从某个slabclass来看其与slab、item之间的关系
 
-![memcache_slab_struct](data:image,local://memcache_slab_1.png)
+![memcache_slab_struct](../images/memcache_slab_1.png)
 
 从图中可以看出，每个slabclass对应一个或多个slab，在slabclass_t结构体里面有个slab_list数组，其指向的是每个slab内存块的首地址(在这里，特别说明一下，slab是一段连续的内存空间，和操作系统中的内存页有点类似，memcache没有专门的一个结构体来描述它，只要其首地址来比较某个slab)，而每个slab中有多个chunk(`struct item`)数据块用来存数据
 
