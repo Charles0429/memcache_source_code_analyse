@@ -9,4 +9,9 @@ build_memcache_step_by_step
 
 ###chapter 1 slab源码分析和slab源码自己动手实现
 
-[slab模块分析](https://github.com/Charles0429/build_memcache_step_by_step/tree/master/chapter01)
+[slab模块分析](chapter01/README.md)
+
+
+###chapter 2 hashtable源码分析和自己动手实现
+
+[hashtable源码分析](chapter02/README.md)
