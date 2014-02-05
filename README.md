@@ -15,3 +15,7 @@ build_memcache_step_by_step
 ###chapter 2 hashtable源码分析和自己动手实现
 
 [hashtable源码分析](chapter02/README.md)
+
+###chapter 3 进程daemonize源码分析和自动动手实现
+
+[进程daemonize源码分析](chapter03/README.md)
